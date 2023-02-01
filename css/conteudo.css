@@ -1,0 +1,98 @@
+.conteudo {
+  margin-top: 1rem;
+  display: grid;
+}
+
+.conteudo h2 {
+  font-size: 1.7rem;
+}
+
+.turismo-cultural {
+  padding: 0px 80px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.turismo-cultural h2 {
+  margin-top: 80px;
+  position: relative;
+}
+
+.turismo-cultural a {
+  display: inline-block;
+  color: white;
+  background: rgb(39, 39, 39);
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-bottom: 80px;
+}
+
+.turismo-cultural a:hover {
+  color: rgb(39, 39, 39);
+  background: transparent;
+  border: 2px solid rgb(39, 39, 39);
+}
+
+.pacotes {
+  background: rgb(39, 39, 39);
+  color: white;
+}
+
+.pacotes h2 {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.pacotes p {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+
+.pacotes-tipos p {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.pacotes-tipos {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.pacotes-tipos ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pacotes-tipos img {
+  border-radius: 50%;
+}
+
+.pacotes-tipos a {
+  display: grid;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+  width: 180px;
+  border: solid 2px transparent;
+  border-radius: 4px;
+  padding: 10px 30px;
+  background: white;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.pacotes-tipos li {
+  position: relative;
+  margin-top: -1rem;
+  margin-bottom: 80px;
+}
+
+.pacotes-tipos a:hover {
+  color: white;
+  background: rgb(39, 39, 39);  
+  border: solid 2px white;
+}

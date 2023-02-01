@@ -1,19 +1,13 @@
 .header {
-  font-size: 1.20rem;
-  max-width: 1200px;
-  padding: 40px 10px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
-.header h1 {
-  font-size: 2rem;
-}
-
-.header li {
-  list-style-type: none;
+.logo {
+  width: 300px; 
+  height: 90px;
 }
 
 .header a {
@@ -24,6 +18,7 @@
 }
 
 nav {
+  font-size: 0.8rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -36,7 +31,18 @@ nav {
   justify-items: center;
 }
 
+.header-menu a:hover {
+  border-bottom: 2px solid black;
+}
+
 .header-redes {
   display: flex;
+  gap: 1rem;
   align-items: center;
+  padding: 0px 10px;
+}
+
+.header-redes img {
+  width: 25px;
+  height: 25px;
 }
