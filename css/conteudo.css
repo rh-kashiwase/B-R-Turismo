@@ -5,17 +5,15 @@
 
 .conteudo h2 {
   font-size: 1.7rem;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 .turismo-cultural {
   padding: 0px 80px;
   line-height: 1.8;
   text-align: center;
-}
-
-.turismo-cultural h2 {
-  margin-top: 80px;
-  position: relative;
 }
 
 .turismo-cultural a {
@@ -40,27 +38,23 @@
   color: white;
 }
 
-.pacotes h2 {
-  margin-top: 80px;
-  margin-bottom: 0px;
-  text-align: center;
-}
-
 .pacotes p {
   text-align: center;
-  margin-bottom: 60px;
-  margin-top: 10px;
-}
-
-.pacotes-tipos p {
-  text-align: center;
-  line-height: 1.8;
+  margin-bottom: 80px;
 }
 
 .pacotes-tipos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0px 100px;
+}
+
+.pacotes-tipos h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0;
+  position: relative;
 }
 
 .pacotes-tipos ul {
@@ -70,29 +64,96 @@
 
 .pacotes-tipos img {
   border-radius: 50%;
+  margin: 20px 0;
+}
+
+.pacotes-ba img {
+  width: 310px;
+  height: 300px;
+}
+
+.pacotes-sp img {
+  width: 310px;
+  height: 300px;
+}
+
+.pacotes-rs img {
+  width: 310px;
+  height: 300px;
+}
+
+.pacotes-tipos p {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;  
+  width: 25ch;
+  line-height: 1.8;
 }
 
 .pacotes-tipos a {
-  display: grid;
   text-decoration: none;
   color: rgb(39, 39, 39);
-  width: 180px;
-  border: solid 2px transparent;
   border-radius: 4px;
-  padding: 10px 30px;
+  padding: 15px 0;
   background: white;
-  justify-items: center;
-  margin: 0 auto;
+  border: solid 2px transparent;
 }
 
 .pacotes-tipos li {
-  position: relative;
-  margin-top: -1rem;
+  display: grid;
+  margin-top: 20px;
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .pacotes-tipos a:hover {
+  background-color: transparent;
   color: white;
-  background: rgb(39, 39, 39);  
   border: solid 2px white;
+}
+
+.seguro-viagem h2 {
+  margin-bottom: 0.5rem;
+}
+
+.seguro-viagem p {
+  text-align: center;
+  width: 100ch;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.seguro-tipos {
+  display: flex;
+  gap: 40px;
+  max-width: 1300px;
+  justify-content: space-between;
+  padding: 0px 60px;
+  margin-top: 80px;
+}
+
+.seguro-tipos ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.seguro-tipos li {
+  flex: 1;
+  border: solid 2px rgb(39, 39, 39);
+}
+
+.seguro-tipos a {
+  display: flex;
+	justify-content: center;
+	width: 200px;
+  padding: 10px 30px;
+  color: rgb(39, 39, 39);
+  text-decoration: none;
+}
+
+.seguro-tipos a:hover {
+  width: 200px;
+  color: white;
+  background: rgb(39, 39, 39);
+  border: solid 2px transparent;
 }

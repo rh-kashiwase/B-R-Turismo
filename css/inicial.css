@@ -4,6 +4,7 @@
 
 .inicial img {
   width: 100%;
+  height: 100%;
 }
 
 .letstravel {
@@ -29,7 +30,7 @@
 
 .info-cidade {
   content: '';
-  color: rgb(32, 32, 32);
+  color: black;
   background: white;
   border-radius: 4px 4px 0px 0px;
   padding: 20px;
