@@ -2,4 +2,4 @@
 
 Status: Em andamento;
 
-Projeto com objetivo de criar um site criado pelo Google Sites em HTML e CSS.
+Projeto com objetivo de replicar um site criado pelo Google Sites em HTML e CSS.
