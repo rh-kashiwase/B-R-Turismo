@@ -1,6 +1,7 @@
 .conteudo {
   margin-top: 1rem;
   display: grid;
+  padding: 0 12px;
 }
 
 .conteudo h2 {
@@ -128,7 +129,7 @@
   gap: 40px;
   max-width: 1300px;
   justify-content: space-between;
-  padding: 0px 60px;
+  padding: 0 100px;
   margin-top: 80px;
 }
 
@@ -137,23 +138,70 @@
   padding: 0px;
 }
 
-.seguro-tipos li {
-  flex: 1;
-  border: solid 2px rgb(39, 39, 39);
-}
-
 .seguro-tipos a {
   display: flex;
 	justify-content: center;
-	width: 200px;
-  padding: 10px 30px;
+	width: 250px;
+  padding: 15px 30px;
   color: rgb(39, 39, 39);
+  border: solid 2px rgb(39, 39, 39);
+  border-radius: 4px;
   text-decoration: none;
+  margin-bottom: 80px;
 }
 
 .seguro-tipos a:hover {
-  width: 200px;
+	width: 250px;
   color: white;
   background: rgb(39, 39, 39);
   border: solid 2px transparent;
+}
+
+.duvida {
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.duvida img {
+  margin: 0 50px;
+  width: 450px;
+  height: 450px;
+}
+
+.duvida-part1 {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.duvida-part1 h2 {
+  font-size: 2.2rem;
+  text-align: left;
+}
+
+.duvida-part1 p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.duvida ul {
+  margin: 0;
+  padding: 0;
+}
+
+.duvida a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+  border: solid 2px rgb(39, 39, 39);
+  border-radius: 4px;
+  padding: 10px 40px;
+}
+
+.duvida a:hover {
+  color: white;
+  border: solid 2px transparent;
+  background: rgb(39, 39, 39);
 }

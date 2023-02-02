@@ -1,0 +1,33 @@
+footer {
+  padding: 0 12px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+.footer {
+  font-size: 0.8rem;
+}
+
+.autoral {
+  margin: 20px 40px;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 2rem;
+  justify-content: right;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.footer-redes img {
+  width: 20px;
+  height: 20px;
+}
