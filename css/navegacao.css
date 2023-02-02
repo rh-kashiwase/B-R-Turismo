@@ -7,12 +7,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
-  margin-top: 80px;
-}
-
-.logo {
-  width: 300px; 
-  height: 90px;
+  margin-top: 40px;
 }
 
 .header a {
@@ -32,7 +27,6 @@ nav {
 .header-menu {
   display: flex;
   gap: 3rem;
-  padding: 1rem;
   justify-items: center;
 }
 
