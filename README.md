@@ -2,4 +2,4 @@
 
 Status: Em andamento;
 
-Projeto com objetivo de replicar em HTML e CSS um site criado pelo Google Sites (https://sites.google.com/view/br-cultural-tourism/in%C3%ADcio?authuser=0).
+Projeto com objetivo de replicar em HTML e CSS um site criado pelo Google Sites (https://sites.google.com/view/br-cultural-tourism/in%C3%ADcio?authuser=0). Além disso, alterando e melhorando algumas partes de layout.
