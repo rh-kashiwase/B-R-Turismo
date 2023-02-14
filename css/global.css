@@ -1,9 +1,0 @@
-body {
-  font-family: 'Comfortaa', cursive;
-  margin: 0;
-  min-width: 700px;
-}
-
-.header li, .conteudo li {
-  list-style-type: none;
-}
