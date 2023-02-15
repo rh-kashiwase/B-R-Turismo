@@ -1,0 +1,19 @@
+body {
+  max-width: 1200px;
+  background: #2e3036;
+  margin: 0px;
+}
+
+ul,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

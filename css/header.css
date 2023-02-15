@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  gap: 160px;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.header a {
+  font-family: 'Comfortaa', sans-serif;
+  color: #FAFAFA;
+}
+
+.header img {
+  width: 180px;
+  height: 50px;
+}
+
+.header-menu {
+  display: flex;
+  font-size: 1rem;
+  gap: 60px;
+}
+
