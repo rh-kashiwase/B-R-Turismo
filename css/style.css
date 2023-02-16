@@ -3,3 +3,9 @@
 /*Header*/
 @import "./header.css";
 @import "./home.css";
+@import "./pacotes.css";
+@import "./roteiro-viagem.css";
+
+/*Tipografia*/
+@import "./organização/fonts-cores.css";
+@import "./organização/container.css";

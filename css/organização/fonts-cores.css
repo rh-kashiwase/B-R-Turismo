@@ -1,0 +1,41 @@
+/*Fonts*/
+.font-1 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+}
+
+.font-1-1 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+}
+
+.font-2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.font-2-1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+/*Cores*/
+:root {
+  --cor-b: #fafafa;
+  --cor-p: #2e3036;
+  --cor-c: #616265;
+  --cor-a: #008cff;
+}
+
+.color-b {
+  color: var(--cor-b);
+}
+.color-p {
+  color: var(--cor-p);
+}
+.color-c {
+  color: var(--cor-c);
+}
+.color-a {
+  color: var(--cor-a);
+}

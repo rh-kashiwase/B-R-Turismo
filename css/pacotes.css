@@ -1,0 +1,72 @@
+.pacotes p {
+  margin-top: 180px;
+  text-align: left;
+  font-size: 1rem;
+  margin-left: 120px;
+}
+
+.pacotes h1 {
+  text-align: left;
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+  margin-left: 120px;
+}
+
+.estados-geral {
+  display: grid;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.estados-ba,
+.estados-rs,
+.estados-sp {
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+}
+
+.estados-sp .estados-nome-info {
+  grid-column: 1;
+  align-self: center;
+  text-align: right;
+}
+
+.estados-sp .estados-img {
+  grid-column: 3;
+  justify-self: left;
+} 
+
+.estados-ba .estados-img,
+.estados-rs .estados-img {
+  grid-column: 1;
+  justify-self: right;
+}
+
+.estados-ba .estados-nome-info,
+.estados-rs .estados-nome-info {
+  grid-column: 3;
+  align-self: center;
+}
+
+.estados-sp .estados-img:hover {
+  transform: rotateZ(-1.5deg);
+  transition: 0.8s;
+}
+
+.estados-ba .estados-img:hover,
+.estados-rs .estados-img:hover {
+  transform: rotateZ(1.5deg);
+  transition: 0.8s;
+}
+
+.estados-ba img {
+  border-radius: 50px 0 0 0;
+}
+
+.estados-sp img {
+  border-radius: 0 50px 0 0;
+}
+
+.estados-rs img {
+  border-radius: 0 0 0 50px;
+}

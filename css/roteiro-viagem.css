@@ -1,0 +1,45 @@
+.roteiro-viagem {
+  margin-top: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.roteiros,
+.seguros {
+  text-align: center;
+  position: relative;
+}
+
+.roteiros img {
+  border-radius: 0 0 50px 0;
+}
+.seguros img{
+  border-radius: 50px 0 0 0;
+}
+
+.roteiros h2,
+.seguros h2 {
+  font-size: 2.2rem;
+}
+
+.roteiros p,
+.seguros p {
+font-size: 1rem;
+}
+
+.roteiros a,
+.seguros a {
+  font-size: 1.2rem;
+  background-color: var(--cor-b);
+  position: absolute;
+  top: 210px;
+  left: 240px;
+}
+
+.roteiros a:hover,
+.seguros a:hover {
+  background-color: transparent;
+  border: solid 2px var(--cor-b);
+  color: var(--cor-b);
+}

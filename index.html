@@ -15,25 +15,118 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header container">
     <a href="./">
-    <img src="./img-icons/icons-escuros/marca-dark.svg" class="marca" alt="B&R Turismo" width="400" height="100"></a>
+      <img src="./img-icons/icons-escuros/marca-dark.svg" class="marca" alt="B&R Turismo" width="150" height="40"></a>
     <nav>
       <ul class="header-menu">
-        <li><a href="#pacotes">Pacotes</a></li>
-        <li><a href="#roteiros">Roteiros</a></li>
-        <li><a href="#seguros">Seguros</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a class="color-p font-2-1" href="#pacotes">Pacotes</a></li>
+        <li><a class="color-p font-2-1" href="#roteiros">Roteiros</a></li>
+        <li><a class="color-p font-2-1" href="#seguros">Seguros</a></li>
+        <li><a class="color-p font-2-1" href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="inicial" aria-label="Home">
-    <h2 class="inicial-titulo">Turismo Cultural</h2>
-    <p>A melhor forma de turistar no Brasil.</p>
-    <a href="./" class="more">Saiba mais</a>
-  </main>
+  <section class="inicial" aria-label="Home">
+    <div class="container">
+      <h2 class="font-2-1 color-p">Turismo Cultural.</h2>
+      <p class="font-1 color-c">A melhor forma de turistar no Brasil</p>
+    </div>
+  </section>
+
+  <section id="pacotes" class="container" aria-label="Pacotes">
+    <div class="pacotes">
+      <p class="font-2 color-c">Nós fornecemos as melhores viagens!</p>
+      <h1 class="font-1-1 color-p">Venha conhecer nossos pacotes</h1>
+    </div>
+    <div class="estados-geral">
+      <div class="estados-ba">
+        <div class="estados-img">
+          <a href="./">
+            <img src="./img-icons/imgs/bahia (1).jpg" width="300" height="300" alt="" href="./">
+          </a>
+        </div>
+        <div class="estados-nome-info">
+          <h2 class="font-1-1 color-p">BAHIA</h2>
+          <p class="font-1 color-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar neque orci, et scelerisque mauris fermentum ut.</p>
+          <a class="botao font-2-1 color-p" href="./">Saiba mais</a>
+        </div>
+      </div>
+      <div class="estados-sp">
+        <div class="estados-nome-info">
+          <h2 class="font-1-1 color-p">SÃO PAULO</h2>
+          <p class="font-1 color-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar neque orci, et scelerisque mauris fermentum ut.</p>
+          <a class="botao font-2-1 color-p" href="./">Saiba mais</a>
+        </div>
+        <div class="estados-img">
+          <a href="./">
+            <img src="./img-icons/imgs/catavento (1).jpg" width="300" height="300" alt="" href="./">
+          </a>
+        </div>
+      </div>
+      <div class="estados-rs">
+        <div class="estados-img">
+          <a href="./">
+            <img href="./" src="./img-icons/imgs/gramado (1).jpg" width="300" height="300" alt="" href="./">
+          </a>
+        </div>
+        <div class="estados-nome-info">
+          <h2 class="font-1-1 color-p">RIO GRANDE DO SUL</h2>
+          <p class="font-1 color-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar neque orci, et scelerisque mauris fermentum ut.</p>
+          <a class="botao font-2-1 color-p" href="./">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="roteiro-viagem">
+    <div id="roteiros" class="roteiros">
+      <div class="roteiro-word">
+        <p class="font-2 color-c">Saiba o melhor roteiro para viajar!</p>
+        <h2 class="font-1-1 color-p">ROTEIRO VIAGEM</h2>
+      </div>
+        <img src="./img-icons/imgs/roteiro-viagem.jpg" width="100%" height="300" alt="">
+        <a class="botao-2 font-2-1 color-p" href="./">Saiba mais</a>
+    </div>
+    <div id="seguros" class="seguros">
+      <div class="seguros-word">
+        <p class="font-2 color-c">Viaje com segurança e sem medo de imprevistos!</p>
+        <h2 class="font-1-1 color-p">SEGURO VIAGEM</h2>
+      </div>
+        <img src="./img-icons/imgs/airport.jpg" width="100%" height="300" alt="">
+        <a class="botao-2 font-2-1 color-p" href="./">Saiba mais</a>
+    </div>
+  </section>
+
+  <section id="contato" class="contato container " aria-label="Contatos">
+    <p class="font-2 color-c">ficou com alguma dúvida?</p>
+    <h2 class="font-1-1 color-p">Entre em contato conosco</h2>
+    <div class="contato-formulario">
+      <form action="./">
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu Nome">
+        </div>
+        <div>
+          <label for="telefone">Telefone</label>
+          <input type="text" id="telefone" name="telefone" placeholder="(00) 99999-9999">
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="contato@email.com">
+        </div>
+        <div>
+          <label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" rows="5" placeholder="Qual a sua dúvida?"></textarea>
+        </div>
+        <button class="botao-2 font-2-1 color-p">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
 
 </body>
+
+<script src="./script.js"></script>
 
 </html>

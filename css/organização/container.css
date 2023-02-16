@@ -1,0 +1,22 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.botao {
+  border: solid 1.5px #0c0c0c;
+  padding: 6px 18px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.botao-2 {
+  border: solid 1.5px #0c0c0c;
+  background: transparent;
+  padding: 12px 50px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}

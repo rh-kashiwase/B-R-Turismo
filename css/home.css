@@ -1,3 +1,13 @@
 .inicial {
-  margin-top: 100px;
+  text-align: right;
+  margin-top: 180px;
+}
+
+.inicial h2 {
+  font-size: 3rem;
+  margin: 0 0 1.5rem 0px;
+}
+
+.inicial p {
+  font-size: 1rem;
 }
