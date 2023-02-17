@@ -68,6 +68,11 @@
 }
 
 @media (max-width: 620px) {
+  .contato-formulario {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
   .subtitulo-contato p, h2 {
     margin-right: 30px;
   }
