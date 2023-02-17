@@ -59,7 +59,7 @@
     grid-template-columns: 1fr;
   }
   .roteiro-viagem img{
-    height: 220px;
+    height: 320px;
   }
   .roteiros h2,
   .seguros h2 {
@@ -82,4 +82,9 @@
   .roteiro-viagem h2:hover {
     border-bottom: none;
   }
+}
+@media (max-width: 620px) {
+.roteiro-viagem img{
+  height: 220px;
+}
 }
