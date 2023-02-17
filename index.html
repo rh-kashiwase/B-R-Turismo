@@ -80,51 +80,98 @@
     </div>
   </section>
 
-  <section class="roteiro-viagem">
+  <section class="roteiro-viagem container">
     <div id="roteiros" class="roteiros">
       <div class="roteiro-word">
-        <p class="font-2 color-c">Saiba o melhor roteiro para viajar!</p>
-        <h2 class="font-1-1 color-p">ROTEIRO VIAGEM</h2>
+        <p class="font-2 color-b">Saiba o melhor roteiro para viajar!</p>
+        <h2 class="font-1-1 color-b">ROTEIRO VIAGEM</h2>
       </div>
-        <img src="./img-icons/imgs/roteiro-viagem.jpg" width="100%" height="300" alt="">
-        <a class="botao-2 font-2-1 color-p" href="./">Saiba mais</a>
+      <img src="./img-icons/imgs/roteiro-viagem.jpg" width="100%" height="300" alt="">
     </div>
     <div id="seguros" class="seguros">
       <div class="seguros-word">
-        <p class="font-2 color-c">Viaje com segurança e sem medo de imprevistos!</p>
-        <h2 class="font-1-1 color-p">SEGURO VIAGEM</h2>
+        <p class="font-2 color-b">Viaje com segurança e sem medo de imprevistos!</p>
+        <h2 class="font-1-1 color-b">SEGURO VIAGEM</h2>
       </div>
-        <img src="./img-icons/imgs/airport.jpg" width="100%" height="300" alt="">
-        <a class="botao-2 font-2-1 color-p" href="./">Saiba mais</a>
+      <img src="./img-icons/imgs/airport.jpg" width="100%" height="300" alt="">
     </div>
   </section>
 
-  <section id="contato" class="contato container " aria-label="Contatos">
-    <p class="font-2 color-c">ficou com alguma dúvida?</p>
-    <h2 class="font-1-1 color-p">Entre em contato conosco</h2>
-    <div class="contato-formulario">
-      <form action="./">
-        <div>
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" placeholder="Seu Nome">
-        </div>
-        <div>
-          <label for="telefone">Telefone</label>
-          <input type="text" id="telefone" name="telefone" placeholder="(00) 99999-9999">
-        </div>
-        <div>
-          <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" placeholder="contato@email.com">
-        </div>
-        <div>
-          <label for="mensagem">Mensagem</label>
-          <textarea name="mensagem" id="mensagem" rows="5" placeholder="Qual a sua dúvida?"></textarea>
-        </div>
-        <button class="botao-2 font-2-1 color-p">Enviar Mensagem</button>
-      </form>
+  <section class="contato-formulario" aria-label="Formulário">
+    <div class="subtitulo-contato container">
+      <p class="font-2 color-c">Ficou com alguma dúvida?</p>
+      <h2 class="font-1-1 color-p">Entre em contato conosco</h2>
     </div>
+    <form class="form" action="./">
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu Nome">
+      </div>
+      <div>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone" placeholder="(00) 99999-9999">
+      </div>
+      <div class="coluna-2">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="contato@email.com">
+      </div>
+      <div class="coluna-2">
+        <label for="mensagem">Mensagem</label>
+        <textarea rows="5" id="mensagem" name="mensagem" placeholder="Qual a sua dúvida?"></textarea>
+      </div>
+      <button class="botao-2">Enviar Mensagem</button>
+    </form>
   </section>
 
+  <footer class="footer container color-p" aria-label="Footer">
+    <div class="about-us">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma pequena agência que será seu guia e planejamento para ter a melhor experiência para viajar dentro do Brasil.</p>
+    </div>
+    <div class="contact">
+      <h2>Contato</h2>
+      <ul>
+        <li>
+          <a href="tel:+5511999999999">+55 11 99999-9999</a>
+        </li>
+        <li>
+          <a href="mailto:contato@brturismo.com.br">contato@brturismo.com.br</a>
+        </li>
+        <li>Av. Paulista, 1510 - Bela Vista - São Paulo, 01310-200</li>
+      </ul>
+      <div class="redes">
+        <a href="./">
+          <img src="./img-icons/icons-escuros/insta-logo.svg" height="20" width="20" alt="Instagram">
+        </a>
+        <a href="./">
+          <img src="./img-icons/icons-escuros/face-logo.svg" height="20" width="20" alt="Facebook">
+        </a>
+        <a href="./">
+          <img src="./img-icons/icons-escuros/whats-logo.svg" height="20" width="20" alt="WhatsApp">
+        </a>
+      </div>
+    </div>
+    <div class="info">
+      <h2>Informação</h2>
+      <ul>
+        <li>
+          <a href="./">Pacotes</a>
+        </li>
+        <li>
+          <a href="./">Roteiros</a>
+        </li>
+        <li>
+          <a href="./">Seguros</a>
+        </li>
+        <li>
+          <a href="./">Contato</a>
+        </li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p>Todos os direitos reservados 2023 © B&R Turismo Cultural</p>
+    </div>
+  </footer>
 </body>
 
 <script src="./script.js"></script>

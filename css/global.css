@@ -5,7 +5,8 @@ body {
 h1,
 h2,
 ul,
-a {
+a,
+p {
   margin: 0px;
   padding: 0px;
 }

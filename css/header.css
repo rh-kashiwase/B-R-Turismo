@@ -21,15 +21,10 @@
   justify-content: right;
   font-size: 0.8rem;
   text-transform: uppercase;
-} 
+}
 
 .header-menu a {
   position: relative;
-}
-
-.header-menu a:hover {
-  font-size: 0.9rem;
-  transition: 0.3s;
 }
 
 .header-menu a:after {
@@ -45,4 +40,24 @@
 
 .header-menu a:hover:after {
   width: 100%;
+}
+
+@media (max-width: 620px) {
+  .header-menu {
+    display: flex;
+    gap: 18px;
+    justify-content: right;
+    font-size: 0.3rem;
+    text-transform: uppercase;
+  }
+  .header-menu a:hover:after {
+    width: 0%;
+  }
+}
+@media (max-width: 620px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
 }

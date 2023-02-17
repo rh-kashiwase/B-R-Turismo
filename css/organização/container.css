@@ -7,16 +7,34 @@
 }
 
 .botao {
+  max-width: max-content;
   border: solid 1.5px #0c0c0c;
   padding: 6px 18px;
   font-size: 0.75rem;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.botao:hover {
+  border: solid 1.5px var(--cor-a);
+  color: var(--cor-a);
+  transition: 0.3s;
 }
 
 .botao-2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   border: solid 1.5px #0c0c0c;
   background: transparent;
-  padding: 12px 50px;
+  padding: 12px 18px;
   font-size: 0.75rem;
   text-transform: uppercase;
+  cursor: pointer;
+  max-width: max-content;
+}
+
+.botao-2:hover {
+  border: solid 1.5px var(--cor-a);
+  color: var(--cor-a);
+  transition: 0.3s;
 }

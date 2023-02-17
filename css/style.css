@@ -5,6 +5,10 @@
 @import "./home.css";
 @import "./pacotes.css";
 @import "./roteiro-viagem.css";
+@import "./contato.css";
+
+/*Footer*/
+@import "./footer.css";
 
 /*Tipografia*/
 @import "./organização/fonts-cores.css";

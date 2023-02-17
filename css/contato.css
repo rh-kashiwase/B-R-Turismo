@@ -1,0 +1,85 @@
+.contato-formulario {
+  margin-top: 120px;
+  margin-bottom: 180px;
+}
+
+.subtitulo-contato {
+  text-align: right;
+}
+.subtitulo-contato h2 {
+  font-size: 2.2rem
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.form .coluna-2 {
+ grid-column: span 2;
+}
+
+.form label {
+  display: block;
+  font: 700 1rem/1.5 "Comfortaa", sans-serif;
+  margin-bottom: 4px;
+}
+
+.form input[type="text"], 
+.form input[type="email"],
+.form textarea {
+  font: 400 0.8rem/1.5 "Roboto", sans-serif;
+  background: var(--cor-c-2);
+  border: 1px solid var(--cor-c-2);
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type="text"]:focus, 
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--cor-a);
+  background: var(--cor-b);
+  box-shadow: 0 0 0 2px rgb(248, 248, 248);
+}
+
+.form .botao-2 {
+  grid-column: 2;
+  justify-self: right;
+}
+
+@media (max-width: 820px) {
+  .subtitulo-contato p,
+  h2 {
+    margin-right: 100px;
+  }
+
+  .form {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 620px) {
+  .subtitulo-contato p, h2 {
+    margin-right: 30px;
+  }
+  .form {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .form input {
+    margin-bottom: 20px;
+  }
+  .form .botao-2 {
+    margin-top: 20px;
+  }
+}

@@ -1,6 +1,6 @@
 .inicial {
   text-align: right;
-  margin-top: 180px;
+  margin-top: 120px;
 }
 
 .inicial h2 {
@@ -10,4 +10,17 @@
 
 .inicial p {
   font-size: 1rem;
+}
+
+@media (max-width: 620px) {
+  .header-menu {
+    display: flex;
+    gap: 18px;
+    justify-content: right;
+    font-size: 0.3rem;
+    text-transform: uppercase;
+  }
+  .header-menu a:hover:after {
+    width: 0%;
+  }
 }
